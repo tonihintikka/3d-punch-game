@@ -43,6 +43,53 @@ canvas {
   left: 2rem;
   pointer-events: none;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+#score-container {
+  margin-top: 2rem;
+}
+
+#score-display {
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.1);
+  transition: all 0.1s ease-out;
+  line-height: 1;
+}
+
+#score-label {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+#reset-btn {
+  pointer-events: auto;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
+  margin-top: 1rem;
+}
+
+#reset-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+#reset-btn:active {
+  transform: translateY(0);
 }
 
 h1 {
