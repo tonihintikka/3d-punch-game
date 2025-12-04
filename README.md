@@ -1,6 +1,9 @@
 # 3D Punch Game
 
-![3D Punch Game Screenshot](public/screenshot.png)
+<video width="100%" controls poster="public/screenshot.png">
+  <source src="public/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 A web-based 3D hand tracking application built with **Three.js** and **MediaPipe Hands**. It features a "Punch Tester" game mode where users can interact with a physics-based pendulum target using their hands.
 
